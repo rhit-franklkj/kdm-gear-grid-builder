@@ -13,6 +13,7 @@ const categoryStructure: categorySectionObject = {
     "exhausted-lantern-hoard",
     "gormchymist",
     "gormery",
+    "giga-catarium",
     "leather-worker",
     "light-forging",
     "mask-maker",

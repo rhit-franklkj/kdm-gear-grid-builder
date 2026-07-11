@@ -11,6 +11,7 @@ export enum Expansion {
   Spidicules = "Spidicules",
   Slenderman = "Slenderman",
   Manhunter = "Manhunter",
+  Gigalion = "White Gigalion",
 }
 
 interface GearImage {
@@ -642,6 +643,33 @@ const gearArray: GearImage[] = [
     versions: ["all"],
     expansion: Expansion.Gorm,
   },
+
+    // giga-catarium
+      {
+    source: "gear-images/gigalion-expansion/Densebonearrow.webp",
+    categories: ["giga-catarium", "item", "bone", "ammunition", "arrow",  "red", "blue"],
+    versions: ["all"],
+    expansion: Expansion.Gigalion,
+    },
+    {
+    source: "gear-images/gigalion-expansion/Hookedclawknife.webp",
+    categories: ["giga-catarium", "weapon", "melee", "dagger", "bone", "red"],
+    versions: ["all"],
+    expansion: Expansion.Gigalion,
+   },
+    {
+    source: "gear-images/gigalion-expansion/Lionslayercape.webp",
+    categories: ["giga-catarium", "item", "fur", "bone", "flammable", "red", "green"],
+    versions: ["all"],
+    expansion: Expansion.Gigalion,
+   },
+    {
+    source: "gear-images/gigalion-expansion/Oxidizedbeastkatar.webp",
+    categories: ["giga-catarium", "weapon", "melee", "katar", "metal", "bone", "red"],
+    versions: ["all"],
+    expansion: Expansion.Gigalion,
+  },
+
   //leather worker
   {
     source: "gear-images/leather-worker/hunter_whip.webp",
