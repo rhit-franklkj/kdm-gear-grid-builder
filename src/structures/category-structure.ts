@@ -35,6 +35,7 @@ const categoryStructure: categorySectionObject = {
   weaponTypes: [
     "axe",
     "bow",
+    "cleaver",
     "club",
     "dagger",
     "grand-weapon",
@@ -60,6 +61,7 @@ const categoryStructure: categorySectionObject = {
     "rolling-armor",
     "warlord-armor",
     "green-armor",
+    "regal-armor",
   ],
   armorLocations: ["arm-armor", "chest-armor", "head-armor", "leg-armor", "waist-armor"],
   miscellaneous: [

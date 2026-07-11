@@ -1,17 +1,61 @@
 export type Versions = "all" | "1.5" | "1.6";
 
+//Sorted by Node, then alphabetically
 export enum Expansion {
-  DragonKing = "Dragon King",
-  Sunstalker = "Sunstalker",
+  //NQ1
+  CrimsonCrocodile = "Crimson Crocodile",
+  Frogdog = "Frogdog",
   Gorm = "Gorm",
-  DungBeetleKnight = "Dung Beetle Knight",
-  FlowerKnight = "Flower Knight",
-  LionGod = "Lion God",
-  LionKnight = "Lion Knight",
-  Spidicules = "Spidicules",
-  Slenderman = "Slenderman",
-  Manhunter = "Manhunter",
+  WhiteLion = "White Lion",
   Gigalion = "White Gigalion",
+
+  //NQ2
+  FlowerKnight = "Flower Knight",
+  Spidicules = "Spidicules",
+  ScreamingAntelope = "Screaming Antelope",
+  Nukealope = "Screaming Nukealope",
+  SmogSingers = "Smog Singers",
+
+  //NQ3
+  DragonKing = "Dragon King",
+  Phoenix = "Phoenix",
+  Sunstalker = "Sunstalker",
+
+  //NQ4
+  DungBeetleKnight = "Dung Beetle Knight",
+  King = "The King",
+  LionGod = "Lion God",
+  ScreamingGod = "Screaming God",
+
+  //NN1
+  Butcher = "Butcher",
+  KilleniumButcher = "Killenium Butcher",
+  Manhunter = "Manhunter",
+  Pariah = "Pariah",
+
+  //NN2
+  Atnas = "Atnas",
+  KingsMan = "King's Man",
+  LionKnight = "Lion Knight",
+  Slenderman = "Slenderman",
+  RedWitches = "Red Witches",
+
+  //NN3
+  BlackKnight = "Black Knight",
+  Hand = "The Hand",
+
+  //CO
+  Gambler = "The Gambler",
+  Watcher = "Watcher",
+
+  //FI
+  GoldSmokeKnight = "Gold Smoke Knight",
+  Godhand = "Godhand",
+  ParasiteQueen = "Parasite Queen",
+
+  //Other
+  LonelyTree = "Lonely Tree",
+  SeedPatterns = "Seed Patterns",
 }
 
 interface GearImage {
@@ -240,91 +284,91 @@ const gearArray: GearImage[] = [
     source: "gear-images/catarium/cat_eye_circlet.webp",
     categories: ["catarium", "item", "jewelery", "other", "blue"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.WhiteLion,
   },
   {
     source: "gear-images/catarium/cat_fang_knife.webp",
     categories: ["catarium", "weapon", "melee", "dagger", "bone", "red"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.WhiteLion,
   },
   {
     source: "gear-images/catarium/cat_gut_bow.webp",
     categories: ["catarium", "weapon", "ranged", "bow", "two-handed", "blue"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.WhiteLion,
   },
   {
     source: "gear-images/catarium/claw_head_arrow.webp",
     categories: ["catarium", "item", "ammunition", "arrow", "blue"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.WhiteLion,
   },
   {
     source: "gear-images/catarium/frenzy_drink.webp",
     categories: ["catarium", "item", "consumable", "fragile"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.WhiteLion,
   },
   {
     source: "gear-images/catarium/king_spear.webp",
     categories: ["catarium", "weapon", "melee", "spear", "heavy", "two-handed", "red"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.WhiteLion,
   },
   {
     source: "gear-images/catarium/lion_beast_katar.webp",
     categories: ["catarium", "weapon", "melee", "katar", "paired"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.WhiteLion,
   },
   {
     source: "gear-images/catarium/lion_headdress.webp",
     categories: ["catarium", "item", "flammable"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.WhiteLion,
   },
   {
     source: "gear-images/catarium/lion_skin_cloak.webp",
     categories: ["catarium", "armor", "fur", "heavy", "bone", "flammable", "green"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.WhiteLion,
   },
   {
     source: "gear-images/catarium/whisker_harp.webp",
     categories: ["catarium", "item", "instrument", "noisy", "blue"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.WhiteLion,
   },
   {
     source: "gear-images/catarium/white_lion_boots.webp",
     categories: ["catarium", "armor", "set", "fur", "heavy", "leg-armor", "red", "white-lion-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.WhiteLion,
   },
   {
     source: "gear-images/catarium/white_lion_coat.webp",
     categories: ["catarium", "armor", "set", "fur", "heavy", "chest-armor", "blue", "white-lion-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.WhiteLion,
   },
   {
     source: "gear-images/catarium/white_lion_gauntlet.webp",
     categories: ["catarium", "armor", "set", "fur", "heavy", "arm-armor", "white-lion-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.WhiteLion,
   },
   {
     source: "gear-images/catarium/white_lion_helm.webp",
     categories: ["catarium", "armor", "set", "fur", "heavy", "head-armor", "red", "white-lion-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.WhiteLion,
   },
   {
     source: "gear-images/catarium/white_lion_skirt.webp",
     categories: ["catarium", "armor", "set", "fur", "heavy", "waist-armor", "red", "white-lion-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.WhiteLion,
   },
 
   //dragon armory
@@ -644,26 +688,26 @@ const gearArray: GearImage[] = [
     expansion: Expansion.Gorm,
   },
 
-    // giga-catarium
-      {
+  // giga-catarium
+  {
     source: "gear-images/gigalion-expansion/Densebonearrow.webp",
-    categories: ["giga-catarium", "item", "bone", "ammunition", "arrow",  "red", "blue"],
+    categories: ["giga-catarium", "item", "bone", "ammunition", "arrow", "red", "blue"],
     versions: ["all"],
     expansion: Expansion.Gigalion,
-    },
-    {
+  },
+  {
     source: "gear-images/gigalion-expansion/Hookedclawknife.webp",
     categories: ["giga-catarium", "weapon", "melee", "dagger", "bone", "red"],
     versions: ["all"],
     expansion: Expansion.Gigalion,
-   },
-    {
+  },
+  {
     source: "gear-images/gigalion-expansion/Lionslayercape.webp",
     categories: ["giga-catarium", "item", "fur", "bone", "flammable", "red", "green"],
     versions: ["all"],
     expansion: Expansion.Gigalion,
-   },
-    {
+  },
+  {
     source: "gear-images/gigalion-expansion/Oxidizedbeastkatar.webp",
     categories: ["giga-catarium", "weapon", "melee", "katar", "metal", "bone", "red"],
     versions: ["all"],
@@ -860,97 +904,97 @@ const gearArray: GearImage[] = [
     source: "gear-images/plumery/arc_bow.webp",
     categories: ["plumery", "weapon", "ranged", "bow", "two-handed", "red", "green"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/plumery/bird_bread.webp",
     categories: ["plumery", "item", "consumable", "soluble", "green"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/kdm-1.6-gear/plumery/blood_sheath.webp",
     categories: ["plumery", "item", "bone", "other"],
     versions: ["1.6"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/plumery/bloom_sphere.webp",
     categories: ["plumery", "item", "stinky", "other", "green", "blue"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/plumery/crest_crown.webp",
     categories: ["plumery", "item", "other", "red", "green", "blue"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/plumery/feather_mantle.webp",
     categories: ["plumery", "item", "flammable", "red", "green", "blue"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/plumery/feather_shield.webp",
     categories: ["plumery", "weapon", "melee", "shield", "flammable", "blue"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/kdm-1.6-gear/plumery/finger_of_god.webp",
     categories: ["plumery", "weapon", "melee", "spear", "two-handed", "red", "green", "blue"],
     versions: ["1.6"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/kdm-1.5-gear/plumery/hollow_sword.webp",
     categories: ["plumery", "weapon", "melee", "sword", "bone"],
     versions: ["1.5"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/kdm-1.6-gear/plumery/hollow_sword.webp",
     categories: ["plumery", "weapon", "melee", "sword", "dagger", "bone"],
     versions: ["1.6"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/plumery/hollowpoint_arrow.webp",
     categories: ["plumery", "item", "ammunition", "arrow"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/plumery/hours_ring.webp",
     categories: ["plumery", "item", "other"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/plumery/phoenix_faulds.webp",
     categories: ["plumery", "armor", "set", "feather", "metal", "flammable", "waist-armor", "phoenix-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/plumery/phoenix_gauntlet.webp",
     categories: ["plumery", "armor", "set", "feather", "metal", "flammable", "arm-armor", "phoenix-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/plumery/phoenix_greaves.webp",
     categories: ["plumery", "armor", "set", "feather", "metal", "flammable", "leg-armor", "red", "phoenix-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/plumery/phoenix_helm.webp",
     categories: ["plumery", "armor", "set", "feather", "metal", "flammable", "head-armor", "blue", "phoenix-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/plumery/phoenix_plackart.webp",
@@ -968,25 +1012,25 @@ const gearArray: GearImage[] = [
       "phoenix-armor",
     ],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/kdm-1.6-gear/plumery/rainbow_katana.webp",
     categories: ["plumery", "weapon", "melee", "katana", "finesse", "two-handed", "red", "green", "blue"],
     versions: ["1.6"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/kdm-1.5-gear/plumery/sonic_tomahawk.webp",
     categories: ["plumery", "weapon", "melee", "axe", "metal", "red", "green", "blue"],
     versions: ["1.5"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   {
     source: "gear-images/kdm-1.6-gear/plumery/sonic_tomahawk.webp",
     categories: ["plumery", "weapon", "melee", "axe", "metal", "red", "blue"],
     versions: ["1.6"],
-    expansion: null,
+    expansion: Expansion.Phoenix,
   },
   //rare gear
   {
@@ -1017,7 +1061,7 @@ const gearArray: GearImage[] = [
     source: "gear-images/rare-gear/butcher_cleaver.webp",
     categories: ["rare-gear", "weapon", "melee", "axe", "other", "paired"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.Butcher,
   },
   {
     source: "gear-images/dung-beetle-knight-expansion/rare-gear/calcified_digging_claw.webp",
@@ -1161,13 +1205,13 @@ const gearArray: GearImage[] = [
     source: "gear-images/kdm-1.5-gear/rare-gear/lantern_halberd.webp",
     categories: ["rare-gear", "weapon", "melee", "two-handed", "spear", "other"],
     versions: ["1.5"],
-    expansion: null,
+    expansion: Expansion.KingsMan,
   },
   {
     source: "gear-images/kdm-1.6-gear/rare-gear/lantern_halberd.webp",
     categories: ["rare-gear", "weapon", "melee", "two-handed", "axe", "spear", "lantern", "other"],
     versions: ["1.6"],
-    expansion: null,
+    expansion: Expansion.KingsMan,
   },
   {
     source: "gear-images/kdm-1.6-gear/rare-gear/leather_bodysuit.webp",
@@ -1237,33 +1281,33 @@ const gearArray: GearImage[] = [
   },
   {
     source: "gear-images/rare-gear/regal_faulds.webp",
-    categories: ["rare-gear", "armor", "bone", "metal", "waist-armor"],
+    categories: ["rare-gear", "armor", "bone", "metal", "waist-armor", "regal-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.KingsMan,
   },
   {
     source: "gear-images/rare-gear/regal_gauntlet.webp",
-    categories: ["rare-gear", "armor", "bone", "metal", "arm-armor"],
+    categories: ["rare-gear", "armor", "bone", "metal", "arm-armor", "regal-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.KingsMan,
   },
   {
     source: "gear-images/rare-gear/regal_greaves.webp",
-    categories: ["rare-gear", "armor", "bone", "metal", "leg-armor"],
+    categories: ["rare-gear", "armor", "bone", "metal", "leg-armor", "regal-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.KingsMan,
   },
   {
     source: "gear-images/rare-gear/regal_helm.webp",
-    categories: ["rare-gear", "armor", "bone", "metal", "head-armor"],
+    categories: ["rare-gear", "armor", "bone", "metal", "head-armor", "regal-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.KingsMan,
   },
   {
     source: "gear-images/rare-gear/regal_plackart.webp",
-    categories: ["rare-gear", "armor", "bone", "metal", "chest-armor"],
+    categories: ["rare-gear", "armor", "bone", "metal", "chest-armor", "regal-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.KingsMan,
   },
   {
     source: "gear-images/dung-beetle-knight-expansion/rare-gear/regenerating_blade.webp",
@@ -1666,115 +1710,115 @@ const gearArray: GearImage[] = [
     source: "gear-images/stone-circle/beast_knuckle.webp",
     categories: ["stone-circle", "weapon", "melee", "katar", "bone", "paired"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/stone-circle/blood_paint.webp",
     categories: ["stone-circle", "item", "soluble"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/kdm-1.5-gear/stone-circle/blue_charm.webp",
     categories: ["stone-circle", "item", "jewelery", "fragile", "blue"],
     versions: ["1.5"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/stone-circle/bone_earrings.webp",
     categories: ["stone-circle", "item", "jewelery", "bone"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/stone-circle/boss_mehndi.webp",
     categories: ["stone-circle", "item", "soluble"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/kdm-1.6-gear/stone-circle/brain_mint.webp",
     categories: ["stone-circle", "item", "consumable", "green", "blue"],
     versions: ["1.6"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/kdm-1.6-gear/stone-circle/elder_earrings.webp",
     categories: ["stone-circle", "item", "jewelery", "red", "blue", "green"],
     versions: ["1.6"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/kdm-1.5-gear/stone-circle/green_charm.webp",
     categories: ["stone-circle", "item", "jewelery", "fragile", "green"],
     versions: ["1.5"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/stone-circle/lance_of_longinus.webp",
     categories: ["stone-circle", "weapon", "melee", "spear", "two-handed", "bone"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/kdm-1.5-gear/stone-circle/red_charm.webp",
     categories: ["stone-circle", "item", "jewelery", "fragile", "red"],
     versions: ["1.5"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/kdm-1.5-gear/stone-circle/screaming_bracers.webp",
     categories: ["stone-circle", "armor", "set", "fur", "arm-armor", "red", "green", "screaming-armor"],
     versions: ["1.5"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/kdm-1.6-gear/stone-circle/screaming_bracers.webp",
     categories: ["stone-circle", "armor", "set", "fur", "arm-armor", "red", "green", "screaming-armor"],
     versions: ["1.6"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/stone-circle/screaming_coat.webp",
     categories: ["stone-circle", "armor", "set", "fur", "chest-armor", "green", "blue", "screaming-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/kdm-1.5-gear/stone-circle/screaming_horns.webp",
     categories: ["stone-circle", "armor", "set", "bone", "head-armor", "blue", "screaming-armor"],
     versions: ["1.5"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/kdm-1.6-gear/stone-circle/screaming_horns.webp",
     categories: ["stone-circle", "armor", "set", "fur", "head-armor", "blue", "screaming-armor"],
     versions: ["1.6"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/stone-circle/screaming_leg_warmers.webp",
     categories: ["stone-circle", "armor", "set", "fur", "leg-armor", "red", "blue", "screaming-armor"],
     versions: ["all"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/kdm-1.5-gear/stone-circle/screaming_skirt.webp",
     categories: ["stone-circle", "armor", "set", "fur", "waist-armor", "green", "blue", "screaming-armor"],
     versions: ["1.5"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/kdm-1.6-gear/stone-circle/screaming_skirt.webp",
     categories: ["stone-circle", "armor", "set", "fur", "waist-armor", "green", "blue", "screaming-armor"],
     versions: ["1.6"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   {
     source: "gear-images/kdm-1.6-gear/stone-circle/speed_powder.webp",
     categories: ["stone-circle", "item", "soluble", "blue"],
     versions: ["1.6"],
-    expansion: null,
+    expansion: Expansion.ScreamingAntelope,
   },
   //weapon crafter
   {
