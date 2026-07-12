@@ -1064,6 +1064,12 @@ const gearArray: GearImage[] = [
     expansion: Expansion.Butcher,
   },
   {
+    source: "gear-images/killenium-butcher/braves-light.webp",
+    categories: ["rare-gear", "item", "lantern", "trophy", "red", "blue"],
+    versions: ["all"],
+    expansion: Expansion.KilleniumButcher,
+  },
+  {
     source: "gear-images/dung-beetle-knight-expansion/rare-gear/calcified_digging_claw.webp",
     categories: ["rare-gear", "weapon", "melee", "katar", "pickaxe", "paired", "green"],
     versions: ["all"],
@@ -1136,6 +1142,12 @@ const gearArray: GearImage[] = [
     expansion: Expansion.FlowerKnight,
   },
   {
+    source: "gear-images/killenium-butcher/forgots-light.webp",
+    categories: ["rare-gear", "item", "lantern", "trophy"],
+    versions: ["all"],
+    expansion: Expansion.KilleniumButcher,
+  },
+  {
     source: "gear-images/rare-gear/forsaker_mask.webp",
     categories: ["rare-gear", "mask", "metal", "other"],
     versions: ["all"],
@@ -1184,6 +1196,12 @@ const gearArray: GearImage[] = [
     expansion: Expansion.LionKnight,
   },
   {
+    source: "gear-images/killenium-butcher/hollows-light.webp",
+    categories: ["rare-gear", "item", "lantern", "trophy", "green"],
+    versions: ["all"],
+    expansion: Expansion.KilleniumButcher,
+  },
+  {
     source: "gear-images/manhunter-expansion/rare-gear/hunter's_heart.webp",
     categories: ["rare-gear", "item", "consumable", "metal", "heavy"],
     versions: ["all"],
@@ -1194,6 +1212,12 @@ const gearArray: GearImage[] = [
     categories: ["rare-gear", "item", "other"],
     versions: ["all"],
     expansion: Expansion.DragonKing,
+  },
+  {
+    source: "gear-images/killenium-butcher/killenium-cleaver.webp",
+    categories: ["weapon", "melee", "axe", "cleaver", "other", "rare-gear"],
+    versions: ["all"],
+    expansion: Expansion.KilleniumButcher,
   },
   {
     source: "gear-images/kdm-1.6-gear/rare-gear/lantern_brassiere.webp",
@@ -1272,6 +1296,12 @@ const gearArray: GearImage[] = [
     categories: ["rare-gear", "armor", "set", "rawhide", "red", "blue"],
     versions: ["1.6"],
     expansion: null,
+  },
+  {
+    source: "gear-images/killenium-butcher/reds-light.webp",
+    categories: ["rare-gear", "item", "lantern", "trophy", "red", "blue", "green"],
+    versions: ["all"],
+    expansion: Expansion.KilleniumButcher,
   },
   {
     source: "gear-images/dragon-king-expansion/rare-gear/regal_edge.webp",
@@ -1960,6 +1990,198 @@ const gearArray: GearImage[] = [
     versions: ["all"],
     expansion: Expansion.DungBeetleKnight,
   },
+  //Seed patterns
+  /*{
+    source: "gear-images/seed-patterns/armorsmiths-tongs.webp",
+    categories: ["seed-patterns", "seed", "item", "metal", "other", "green"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/backstabbing-stone.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "stone"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/beast-hunter-helm.webp",
+    categories: ["seed-patterns", "seed", "armor", "set", "bone", "fur", "blue", "green"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/cyclops-ledger.webp",
+    categories: ["seed-patterns", "seed", "item", "other", "green"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/death-defier.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "grand", "dagger", "heavy", "deathmetal", "red"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/dream-keeper-cowl.webp",
+    categories: ["seed-patterns", "seed", "item", "cloth", "other", "green"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/dream-keeper-knife.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "dagger", "bone", "other", "blue"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/elders-aegis.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "shield", "stone", "green"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/fingernail-whip.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "whip", "bone", "other", "red", "green"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/heartseeker.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "grand", "sword", "heavy", "deathmetal", "red", "green"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/hushing-harmonium.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "instrument", "metal", "other", "green"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/hypersight-visor.webp",
+    categories: ["seed-patterns", "seed", "item", "other", "blue"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/imitation-butcher-mask.webp",
+    categories: ["seed-patterns", "seed", "armor", "set", "mask", "leather", "metal", "other", "red", "blue"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/itemsmiths-lens.webp",
+    categories: ["seed-patterns", "seed", "item", "metal", "other", "blue"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/jarngreipr.webp",
+    categories: ["seed-patterns", "seed", "item", "metal", "other", "red", "blue", "green"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/lucky-cat-fang-knife.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "dagger", "bone", "metal", "blue"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/masamune.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "katana", "metal", "other"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/master-bone-dagger.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "dagger", "finesse", "bone", "other", "red"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/mighty-bone-axe.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "axe", "bone", "red"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/monster-trophy.webp",
+    categories: ["seed-patterns", "seed", "item", "fur", "flammable", "red", "green"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/neko-twilight-armor.webp",
+    categories: ["seed-patterns", "seed", "armor", "metal", "other"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/ornate-rapier.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "sword", "finesse", "metal", "other"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/plasma-cutter.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "sword", "metal", "plasma", "red"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/rawhide-bandana.webp",
+    categories: ["seed-patterns", "seed", "armor", "set", "rawhide", "blue"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/reaperjaw.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "dagger", "metal", "scout", "other", "red", "blue"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/shadow-skleaver.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "grand", "metal", "other"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/sprinter-helm.webp",
+    categories: ["seed-patterns", "seed", "armor", "set", "bone", "fur", "red"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/tithe-box.webp",
+    categories: ["seed-patterns", "seed", "item", "stinky", "heavy", "other"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/true-lantern-halberd.webp",
+    categories: [
+      "seed-patterns",
+      "seed",
+      "weapon",
+      "melee",
+      "spear",
+      "two-handed",
+      "finesse",
+      "lantern",
+      "other",
+      "red",
+    ],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  },
+  {
+    source: "gear-images/seed-patterns/weaponsmiths-hammer.webp",
+    categories: ["seed-patterns", "seed", "weapon", "melee", "club", "metal", "other", "red"],
+    versions: ["all"],
+    expansion: Expansion.SeedPatterns,
+  }, */
 ];
 
 export default gearArray;

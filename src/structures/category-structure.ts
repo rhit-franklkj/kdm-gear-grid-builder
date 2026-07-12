@@ -22,6 +22,7 @@ const categoryStructure: categorySectionObject = {
     "rare-gear",
     "sacred-pool",
     "sense-memory",
+    "seed-patterns",
     "silk-mill",
     "skinnery",
     "skyreef-sanctuary",
@@ -72,6 +73,7 @@ const categoryStructure: categorySectionObject = {
     "balm",
     "bone",
     "consumable",
+    "deathmetal",
     "feather",
     "finesse",
     "flammable",
@@ -107,6 +109,7 @@ const categoryStructure: categorySectionObject = {
     "symbol",
     "thrown",
     "tool",
+    "trophy",
     "two-handed",
   ],
 };
